@@ -1,0 +1,75 @@
+.head{
+    border: 1px solid black;
+
+}
+
+.dv1{
+    border: 1px solid red;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.logo{
+    border: 1px solid blue;
+    height: 76px;
+    width: 198px;
+    background: url(img/logo.jpg) no-repeat;
+}
+
+.dv0{
+    border: 1px solid black;
+    background: url(img/body_bg.jpg);
+}
+
+.body{
+    border: 1px solid red;
+    width: 1000px;
+    height: 38px;
+    margin: 0px auto;
+    background: url(img/body_bg.jpg);
+}
+
+.body-ul>li{
+    float: left;
+    border: 1px solid red;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.body-ul>li:hover{
+    background: white;
+    color: orange;
+}
+
+.shouye-ul {
+    border: 1px solid red;
+    width: 300px;
+    background: #ccc;
+}
+
+.li-dv .shouye-dv {
+    position: absolute;
+    top: 39px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.li-dv {
+    /* 过度动画效果 */
+    transition: opacity .3s ease-in;
+    position: relative;
+}
+
+
+    /* 过度动画效果 */
+.li-dv:hover .shouye-dv {
+    display: block;
+    opacity: 1;
+    transition: opacity 3s ease-in;
+}
